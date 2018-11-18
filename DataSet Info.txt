@@ -1,0 +1,62 @@
+customerID		string
+Customer ID
+
+gender	string
+Customer gender (female, male)
+
+SeniorCitizen	bool
+Whether the customer is a senior citizen or not (1, 0)
+
+Partner bool
+Whether the customer has a partner or not (Yes, No)
+
+Dependents bool
+Whether the customer has dependents or not (Yes, No)
+
+tenure int64
+Number of months the customer has stayed with the company
+
+PhoneService bool
+Whether the customer has a phone service or not (Yes, No)
+
+MultipleLines bool
+Whether the customer has multiple lines or not (Yes, No, No phone service)
+
+InternetService	string
+Customer’s internet service provider (DSL, Fiber optic, No)
+
+OnlineSecurity	bool
+Whether the customer has online security or not (Yes, No, No internet service)
+
+OnlineBackup		bool
+Whether the customer has online backup or not (Yes, No, No internet service)
+
+DeviceProtection	bool
+Whether the customer has device protection or not (Yes, No, No internet service)
+
+TechSupport	bool
+Whether the customer has tech support or not (Yes, No, No internet service)
+
+StreamingTV	bool
+Whether the customer has streaming TV or not (Yes, No, No internet service)
+
+StreamingMovies	bool
+Whether the customer has streaming movies or not (Yes, No, No internet service)
+
+Contract	string
+The contract term of the customer (Month-to-month, One year, Two year)
+
+PaperlessBilling	bool
+Whether the customer has paperless billing or not (Yes, No)
+
+PaymentMethod	string
+The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
+
+MonthlyCharges	float64
+The amount charged to the customer monthly
+
+TotalCharges	float64
+The total amount charged to the customer
+
+Churn	bool
+Whether the customer churned or not (Yes or No)
